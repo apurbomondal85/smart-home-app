@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home App</title>
+    <!-- font-awesome cdn -->
+    <script src="https://kit.fontawesome.com/adade78f93.js" crossorigin="anonymous"></script>
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css style link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+  <!-- --navbar-section--- -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="logo" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-staggered"></i></span>
+            <!-- <span class="navbar-toggler-icon"></span> -->
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav gap-lg-4 gap-0 m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#access">access control</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#digital">digital</a>
+              </li>
+            </ul>
+            <form class="me-5 mt-3 mt-lg-0">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="media-icon d-flex gap-3 mt-4 mt-lg-0">
+                <img src="images/icons/insta.png" alt="instagram" class="img-fluid">
+                <img src="images/icons/facebook.png" alt="facebook" class="img-fluid">
+                <img src="images/icons/twitter.png" alt="twitter" class="img-fluid">
+                <img src="images/icons/whatsapp.png" alt="whatsapp" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ---banner-section---- -->
+    <section id="home" class="banner-section">
+      <div class="container">
+        <div class="row row-cols-lg-2 row-cols-1 align-items-center justify-content-center text-center text-lg-start">
+          <div class="col">
+            <div class="banner-text">
+              <h1 class="banner-title text-uppercase">FUTURE IS NOW</h1>
+              <h2 class="text-uppercase">SMART HOME</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, alias.</p>
+              <button class="main-btn">see more</button>
+            </div>
+          </div>
+          <div class="col mt-5 mt-lg-0">
+            <div class="banner-img">
+              <img src="images/banner-img.png" alt="banner-img" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <!-- smart-section -->
+      <section class="smart-section">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-2 align-items-center justify-content-center text-center text-lg-start">
+            <div class="col">
+              <div class="smart-img">
+                <img src="images/smart-img.png" alt="smart-img" class="img-fluid">
+              </div>
+            </div>
+            <div class="col mt-5 mt-lg-0">
+              <div class="smart-text">
+                <h2 class="text-uppercase">smart home</h2>
+                <h3>security system</h3>
+                <p class="pe-lg-5 pe-0">“Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- advantage-section -->
+      <section class="advantage-section">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 px-sm-4 px-0 g-5">
+            <div class="col">
+              <div class="security text-center">
+                <div class="card">
+                  <img src="images/icons/home.png" class="img-fluid pt-2" alt="security">
+                  <div class="card-body">
+                    <h4 class="text-uppercase">SECURITY SYSTEM</h4>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="security text-center">
+                <div class="card">
+                  <img src="images/icons/idea.png" class="img-fluid" alt="security">
+                  <div class="card-body">
+                    <h4 class="text-uppercase">SMART LAMP</h4>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="security text-center">
+                <div class="card">
+                  <img src="images/icons/cctv.png" class="img-fluid pt-3" alt="security">
+                  <div class="card-body">
+                    <h4 class="text-uppercase">CCTV CONTROL</h4>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ---security-section---- -->
+      <section class="security-mode">
+        <div class="container">
+          <h2 class="text-uppercase text-center mb-5 pb-5">security mode type</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+            <div class="col">
+              <div class="card text-center">
+                <img src="images/security/security-img1.png" class="img-fluid" alt="type1">
+                <div class="card-body">
+                  <h4 class="text-uppercase">type A</h4>
+                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button class="main-btn">see more</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-center">
+                <img src="images/security/security-img2.png" class="img-fluid size" alt="type1">
+                <div class="card-body">
+                  <h4 class="text-uppercase">type B</h4>
+                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button class="main-btn">see more</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-center">
+                <img src="images/security/security-img3.png" class="img-fluid" alt="type1">
+                <div class="card-body">
+                  <h4 class="text-uppercase">type C</h4>
+                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button class="main-btn">see more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ----smart2-section---- -->
+      <section class="smart2-section">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-2 align-items-center justify-content-center text-center text-lg-start">
+            <div class="col">
+              <div class="smart2-img">
+                <img src="images/smart2-img.png" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="col mt-5 mt-lg-0">
+              <h2 class="mb-5">SMART HOME</h2>
+              <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <button class="main-btn">read more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- monitor-section  -->
+      <section class="monitor-section">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-2 align-items-center justify-content-center text-center text-lg-start g-5">
+            <div class="col">
+              <div class="monitor-text ps-lg-5 ms-lg-5">
+                <h2 class="mb-5">MONITOR<br>HOME<br>REMOTELY</h2>
+                <ul>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </li>
+                  <li>incididunt ut labore et dolore magna aliqua.</li>
+                  <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </li>
+                  <li>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                </ul>
+                <div class="service text-center mt-5 pt-5">
+                  <h4>service</h4>
+                  <h2>012345</h2>
+                  <p>download available on</p>
+                  <button class="main-btn"></button>
+                  <button class="main-btn"></button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="monitor-img">
+                <img src="images/phone-img.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

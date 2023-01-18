@@ -1,0 +1,12 @@
+@media (max-width: 991px) {
+    .banner-section .banner-text .banner-title{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .banner-section .banner-text{
+        width: 100%;
+        padding-left: 0;
+    }
+}
