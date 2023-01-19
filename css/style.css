@@ -192,3 +192,40 @@ section{
 .monitor-img img{
     width: 60%;
 }
+
+/* ====about-section==== */
+.about-section .about-img img{
+    width: 70%;
+}
+.about-section .about-text .contact li{
+    color: var(--white-color);
+    margin-bottom: 1rem;
+}
+.about-section .about-text .contact li i{
+    margin-right: .4rem;
+}
+.about-section .about-img img{
+    animation: fadeImg 5s infinite;
+}
+@keyframes fadeImg {
+    50%{
+        transform: translateX(1rem);
+    }
+    100%{
+        transform: translateX(-1rem);  
+    }
+}
+
+/* ====offer-section==== */
+.footer-section{
+    padding: 5rem 2rem;
+    background: #a12fb1;
+}
+.footer-section ul{
+    margin-left: -1.7rem;
+}
+.footer-section ul li{
+    color: var(--white-color);
+    margin-top: .5rem;
+    font-size: 1rem;
+}
